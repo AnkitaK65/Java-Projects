@@ -50,7 +50,6 @@ public class TicTacToe {
             } catch (java.util.InputMismatchException e) {
                 System.out.println("Invalid input. Please enter valid integers for row and column.");
                 scanner.nextLine(); // Clear the invalid input
-                continue;
             }
         } while (!isValidMove(row, col));
 
